@@ -5,7 +5,7 @@ import {useState, useEffect} from 'react';
 import Form from 'react-jsonschema-form';
 import schema from '../schema.json';
 
-import * as actions from '../store/players.store.js';
+// import * as actions from '../store/players.store.js';
 
 const uiSchema = {
   _id: { 'ui:widget': 'hidden' },
